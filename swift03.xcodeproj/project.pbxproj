@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		DFA1A1512A72BCF400582180 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A1502A72BCF400582180 /* main.swift */; };
+		DFA1A15A2A72BD7200582180 /* MenuItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A1592A72BD7200582180 /* MenuItemProtocol.swift */; };
+		DFA1A15C2A72BDD200582180 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A15B2A72BDD200582180 /* Cafe.swift */; };
+		DFA1A15E2A72BE8200582180 /* Tea.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFA1A15D2A72BE8200582180 /* Tea.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		DFA1A14D2A72BCF400582180 /* swift03 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = swift03; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFA1A1502A72BCF400582180 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DFA1A1592A72BD7200582180 /* MenuItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItemProtocol.swift; sourceTree = "<group>"; };
+		DFA1A15B2A72BDD200582180 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		DFA1A15D2A72BE8200582180 /* Tea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tea.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				DFA1A1502A72BCF400582180 /* main.swift */,
+				DFA1A15B2A72BDD200582180 /* Cafe.swift */,
+				DFA1A1592A72BD7200582180 /* MenuItemProtocol.swift */,
+				DFA1A15D2A72BE8200582180 /* Tea.swift */,
 			);
 			path = swift03;
 			sourceTree = "<group>";
@@ -120,7 +129,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFA1A15A2A72BD7200582180 /* MenuItemProtocol.swift in Sources */,
 				DFA1A1512A72BCF400582180 /* main.swift in Sources */,
+				DFA1A15E2A72BE8200582180 /* Tea.swift in Sources */,
+				DFA1A15C2A72BDD200582180 /* Cafe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
